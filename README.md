@@ -1,9 +1,14 @@
 # Proyecto_2_Analisis_MercadoLibre
 
-**Descripción:** Se realizó un análisis de embudo y retencion para Mercado Libre. Esto para detectar en que etapa del viaje del usuario se perdían clientes. Así como también se obtuvo los porcentajes de conversión por etapa. Esto ayuda al negocio a tomar decisiones informadas para implementar mejoras en  e-commerce.
+**Descripción:** Se realizó un análisis de embudo y retención para Mercado Libre. Esto para detectar en que etapa del viaje del usuario se perdían clientes. Así como también se obtuvo los porcentajes de conversión por etapa. Esto ayuda al negocio a tomar decisiones informadas para implementar mejoras en  e-commerce.
 
 **Título:** Análisis de Embudo y Retención de clientes
 
-- **Desafio:** El cliente no sabia en donde se estaban perdiendo los clientes. 
-- **Proceso:** Primero empecé con un análisis exploratorio de los datos mediante el uso de SQL queries. Esto para poder verificar la calidad de datos y así comprender el viaje del usuario también. Ya con el viaje del usuario mapeado y los datos limpios, procedí a construir el embudo y así detectar el drop off y conversión. Al final se hizo un archivo de Excel/Google Sheets donde se plasmaron los resultados y el heatmap que mostraba de manera sencilla la retención por Cohortes así como también el dropoff en cada etapa del viaje.
-- **Resultado:** Se identificó de manera sencilla la etapa que ocasionaba el mayor numero de abandono, lo que nos permitía dar sugerencias para mejorar el porcentaje así como facilitar la toma de decisiones.
+- **Desafío:** El cliente no sabia en donde se estaban perdiendo los clientes. También se necesitaba entender que tanto seguían gastando los clientes después de su primer compra.
+
+- **Proceso:** Primero empecé con un análisis exploratorio de los datos mediante el uso de SQL queries, esto me ayudó a entender como estaban estructuradas las tablas. Esto también me ayudó a verificar la calidad de datos y así comprender el viaje del usuario también. Ya con el viaje del usuario mapeado y los datos limpios, procedí a construir el embudo y así detectar el drop off y conversión. Usando la columna fecha, construí cohortes que me permitían saber cuando y que tanto habían gastado los clientes. Al final se hizo un archivo de Excel/Google Sheets donde se plasmaron los resultados y el heatmap que mostraba de manera sencilla la retención por Cohortes así como también el dropoff en cada etapa del viaje.
+
+- -**Insights:** Se identifico la etapa que mas ocasionaba el abandono. Se sugirió hablar con el equipo encargado de la pagina para evaluar porque los usuarios so continuaban su compra. Se segmentaron los datos entre la cohorte y la región de gasto. Lo que no solo permitió entender que tan leales eran los clientes sino también entender que región era la que mas gastaba dinero. Ya con esto identificado, se recomendó hacer una mayor inversión en las regiones donde mas se obtienen ganancias así como también hablar con el equipo para discutir si es un problema de diseño lo que nos genera perder tantos clientes en una sola estaba.
+
+
+- **Resultado:** Se identificó de manera sencilla la etapa que ocasionaba el mayor numero de abandono, lo que nos permitía dar sugerencias para mejorar el porcentaje así como facilitar la toma de decisiones. Además con la segmentación de clientes, se pudo saber que región era la que mas ingresos generaba. Lo cual permite realizar una decisión bien informada en los siguientes pasos del negocio.
